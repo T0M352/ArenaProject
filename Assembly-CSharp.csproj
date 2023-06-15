@@ -93,6 +93,7 @@
     <Compile Include="Assets\Skrypty\Enemy.cs" />
     <Compile Include="Assets\Skrypty\EnemyOgre.cs" />
     <Compile Include="Assets\Skrypty\Weapon2.cs" />
+    <Compile Include="Assets\SecondArenaSplitter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\TextMesh Pro\Shaders\TMPro.cginc" />

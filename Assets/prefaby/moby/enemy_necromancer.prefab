@@ -202,11 +202,11 @@ MonoBehaviour:
   attackDist: 0.3
   backDist: 0.5
   knockTime: 0.2
+  readyDist: 0.9
   startPos: {fileID: 0}
   moveDirectory: {x: 0, y: 0}
-  distanceEnemies: 0
-  readyDist: 0.9
   legs: {fileID: 0}
+  diamond: {fileID: 0}
 --- !u!114 &3982496415618829029
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -225,12 +225,12 @@ MonoBehaviour:
   attackDist: 0.3
   backDist: 5
   knockTime: 0.2
+  readyDist: 0.8
   startPos: {fileID: 0}
   moveDirectory: {x: 0, y: 0}
-  distanceEnemies: 0
-  readyDist: 0.8
   legs: {fileID: 0}
-  skeleton: {fileID: 589540995389541918, guid: d602472064f58b146920fe33a209ea22, type: 3}
+  diamond: {fileID: 0}
+  skeleton: {fileID: 7900232417766046687, guid: a0d85b0c55d1ee648a564fa2ca42fd9f, type: 3}
   summonPS: {fileID: 6405181812160919125, guid: 2486bdb6e3e49db47ba4e88d2f9c4381, type: 3}
 --- !u!1 &8968585622903175578
 GameObject:
@@ -303,19 +303,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b0d73e1efe17245914db66e353cf75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  filter:
-    useTriggers: 0
-    useLayerMask: 0
-    useDepth: 0
-    useOutsideDepth: 0
-    useNormalAngle: 0
-    useOutsideNormalAngle: 0
-    layerMask:
-      serializedVersion: 2
-      m_Bits: 0
-    minDepth: 0
-    maxDepth: 0
-    minNormalAngle: 0
-    maxNormalAngle: 0
   Damage: 2
   Push: 0
